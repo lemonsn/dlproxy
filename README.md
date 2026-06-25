@@ -26,7 +26,7 @@ git clone https://github.com/lemonsn/dlproxy
 * 请打开 `main.go`，找到 `address := ":8080"` 这一行，直接将 `8080` 修改为您期望的端口即可。*(注：前端使用的是相对路径表单，无需进行任何端口修改)*
 
 ### 3. 初始化 Go 模块
-进入包含源码的文件夹内，初始化 Go 语言的包管理器（模块名已被定义为 `dlproxy`）：
+进入包含源码的文件夹内，使用 Go 1.26.4 初始化 Go 语言的包管理器（模块名已被定义为 `dlproxy`） [💡]：
 ```bash
 go mod init dlproxy
 ```
